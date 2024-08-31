@@ -21,7 +21,7 @@ public class Assignment7 {
         System.out.println("");
     }
 
-    public static float finalMax(float[] mang) {
+    public static float findMax(float[] mang) {
         float max1, max2;
         if (mang[0] > mang[1]) {
             max1 = mang[0];
@@ -67,7 +67,7 @@ public class Assignment7 {
         float[] mang = new float[number];
         Nhapmang(mang);
         Xuatmang(mang);
-        float max2 = finalMax(mang);
+        float max2 = findMax(mang);
         System.out.println("Gia tri lon thu 2 la : " + max2);
         Xoa(mang);
 
